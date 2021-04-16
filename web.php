@@ -42,4 +42,4 @@ Route::get('grafica', function(){
     return view('grafica');
 });
 
-
+Route::get('pdf', 'PDFController@PDF')->name('descargaPDF');
